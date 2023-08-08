@@ -37,3 +37,32 @@ python app/unemployment.py
 
 python -m app.unemployment
 ```
+
+
+Run the stocks report:
+
+```sh
+python -m app.stocks
+```
+
+
+Run the web app:
+
+```sh
+# Mac OS:
+FLASK_APP=web_app flask run
+
+# Windows OS:
+# ... if `export` doesn't work for you, try `set` instead
+# ... or try a ".env" file approach
+export FLASK_APP=web_app
+flask run
+```
+
+## Testing
+
+Run tests:
+
+```sh
+pytest
+```
